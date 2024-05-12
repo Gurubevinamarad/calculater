@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
-class calculater1
+class calculater1 extends extendPgm
 {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
@@ -15,6 +16,7 @@ class calculater1
         System.out.println("DIFFERENCE  " + p + " - " + q + " = " + Sub(p, q));
         System.out.println("PRODUCT     " + p + " * " + q + " = " + Mul(p, q));
         System.out.println("QUOTIENT    " + p + " / " + q + " = " + Div(p, q));
+        System.out.println("Extend SUM  " + p + " + " + q + " = " + exSum(p, q));
 
         
      }
